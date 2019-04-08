@@ -27,12 +27,18 @@
         font-size: 20px;
     }
 /*    ----------------About media--------------*/
+    .about {
+        margin: 10px 0;
+    }
     .about2{
         flex-direction: column;
         width: 100vw;
         padding: 10px 0;
     }
     .about p{
+        width: 100v%;
+    }
+    .about-text{
         width: 100%;
     }
 

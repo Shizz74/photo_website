@@ -21,6 +21,12 @@ nav{
 }
 .logo img{
     height: 8vh;
+    padding: 0 20%;
+}
+.logo span{
+    font-size: 21px;
+    font-weight:700; 
+    color: rgba(4, 4, 87, 0.82);
 }
 .logo img:hover{
     animation: scale 1s;
