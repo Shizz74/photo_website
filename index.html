@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/article-section.css">
+    <link rel="stylesheet" href="css/gallery.css">   
+    <link rel="stylesheet" href="css/ref.css">
+    <link rel="stylesheet" href="css/contact.css"> 
+    <link rel="stylesheet" href="css/media.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> 
+</head>
+<body>
+    <nav data-scroll-header>
+        <div class="logo">
+            <img src="pic/logo.png" alt="Brand">
+        </div>
+        <div class="nav-link">
+            <ul>
+                <li><a data-scroll href="#head" class="links">Home</a></li>
+                <li><a data-scroll href="#about" class="links">About</a></li>
+                <li><a data-scroll href="#gallery" class="links">Gallery</a></li>
+                <li><a data-scroll href="#reference" class="links">Reference</a></li>
+                <li><a data-scroll href="#contact" class="links">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <video loop muted autoplay  class="fullscreen-bg__video">
+        <source src="pic/Worm Hole - 6797.mp4" type="video/mp4">
+        <source src="logo.png" type="png">
+    </video>
+    <header id="head">
+        <div class="header-text">
+            <h1>Lorem Ipsum</h1>
+            <p><br>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</p>
+        </div>
+    </header>
+   <div class="container">
+    <article>
+        <section id="about">
+            <div class="about">
+                <div class="about2">
+                    <div class="about-text wow bounceInLeft">
+                        <h1>Lorem ipsum dolor sit.</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae commodi iure, distinctio placeat porro deserunt, eaque perferendis dolores nesciunt ut sequi ducimus aspernatur rem autem at, cum consequatur debitis nulla similique labore totam quisquam! Tempore sit, totam vero hic natus.</p>
+                    </div>
+                    <div class="section-img wow bounceInRight">
+                        <img src="https://picsum.photos/1920/1080?image=91" alt="Jeż" width="300px" height="300px" class="wow">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="gallery">
+            <header class="title">
+                <h1>GALLERY</h1>
+            </header>
+                <div class="gallery wow bounce" >  
+                <div id="ppl" class="galleria peopleGall">
+                    <img src="https://picsum.photos/1920/1080?image=31">
+                    <img src="https://picsum.photos/1920/1080?image=65">
+                    <img src="https://picsum.photos/1920/1080?image=64">
+                    <img src="https://picsum.photos/1920/1080?image=103">
+                    <img src="https://picsum.photos/1920/1080?image=129">
+                    <img src="https://picsum.photos/1920/1080?image=158">
+                </div> 
+                <div class="pic people" onclick="peopleGallery()" data-value="1">
+                    <a id="pplID" href="#ppl">
+                        <div class="txtExit">
+                            <span>Exit</span>
+                        </div>
+                        <article class="picText">
+                            <span>People</span>
+                        </article>
+                    </a>
+                </div>
+                <div id="urb" class="galleria urbanGall">
+                    <img src="https://picsum.photos/1920/1080?image=43">
+                    <img src="https://picsum.photos/1920/1080?image=49">
+                    <img src="https://picsum.photos/1920/1080?image=57">
+                    <img src="https://picsum.photos/1920/1080?image=58">
+                    <img src="https://picsum.photos/1920/1080?image=69">
+                    <img src="https://picsum.photos/1920/1080?image=88">
+                </div> 
+                <div class="pic urban" onclick="urbanGallery()" data-value="1">
+                    <a id="urbID" href="#urb">
+                        <div class="txtExit">
+                            <span>Exit</span>
+                        </div>
+                        <article class="picText">
+                            <span>Urban</span>
+                        </article>
+                    </a>
+                </div>
+                <div id="ani" class="galleria animalsGall">
+                    <img src="https://picsum.photos/1920/1080?image=40">
+                    <img src="https://picsum.photos/1920/1080?image=130">
+                    <img src="https://picsum.photos/1920/1080?image=169">
+                    <img src="https://picsum.photos/1920/1080?image=200">
+                    <img src="https://picsum.photos/1920/1080?image=219">
+                    <img src="https://picsum.photos/1920/1080?image=433">
+                </div>
+                    <div class="pic animals" onclick="animalsGallery()" data-value="1">
+                    <a id="aniID" href="#ani">
+                        <div class="txtExit">
+                            <span>Exit</span>
+                        </div>
+                        <article class="picText">
+                            <span>Animals</span>
+                        </article>
+                    </a>
+                </div>
+                <div id="nat" class="galleria natureGall">
+                    <img src="https://picsum.photos/1920/1080?image=16">
+                    <img src="https://picsum.photos/1920/1080?image=15">
+                    <img src="https://picsum.photos/1920/1080?image=14">
+                    <img src="https://picsum.photos/1920/1080?image=13">
+                    <img src="https://picsum.photos/1920/1080?image=17">
+                    <img src="https://picsum.photos/1920/1080?image=19">
+                </div>
+                    <div class="pic nature" onclick="natureGallery()" data-value="1">
+                    <a id="natID" href="#nat">
+                        <div class="txtExit">
+                            <span>Exit</span>
+                        </div>
+                        <article class="picText">
+                            <span>Nature</span>
+                        </article>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="reference">
+            <header class="title">
+                <h1>Others about us.</h1>
+            </header>
+            <div class="reference">
+                <div class="try wow fadeInDown">
+                    <div class="single">
+                        <img src="pic/jez.jpg" alt="" width="100%" class=" wow fadeInDown">
+                        <h1>Lorem ipsum.</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis reprehenderit assumenda veniam ea, doloribus enim.</p>
+                    </div>
+                </div>
+                <div class="try wow fadeInDown">
+                    <div class="single">
+                        <img src="pic/jez.jpg" alt="" width="100%" class=" wow fadeInDown">
+                        <h1>Lorem ipsum.</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis reprehenderit assumenda veniam ea, doloribus enim.</p>
+                    </div>
+                </div>
+                <div class="try2 wow fadeInDown">
+                    <div class="single">
+                        <img src="pic/jez.jpg" alt="" width="100%" class=" wow fadeInDown">
+                        <h1>Lorem ipsum.</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis reprehenderit assumenda veniam ea, doloribus enim.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact wow fadeInDown">
+                <header class="title">
+                    <h1>CONTACT</h1>
+                </header>
+               <div class="contact-icon">
+                   <a href="https://www.facebook.com"><i class="fab fa-facebook"> Facebook</i></a>
+               </div>
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"> E-mail: example@example.com</i>
+                </div>
+                <div class="contact-icon">
+                    <i class="fas fa-phone"> Phone: 206-365-1747</i>
+                </div>
+                <div class="contact-icon">
+                    <i class="fas fa-globe-europe"> Seattle 2868  University Street  </i>
+                </div>
+
+            </div>
+        </section>
+    </article>
+       
+    <footer>
+        Copyrights by Wojciech Bajko 2019 &#9400;
+    </footer>
+   </div>
+    <script src="scripts/smooth-scroll-master/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]',{
+            header: '[data-scroll-header]'
+        });
+    </script>
+    <script src="scripts/smooth.js"></script>
+    <script src="scripts/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="scripts/galleria/galleria-1.5.7.min.js"></script>
+    <script src="scripts/script.js"></script>
+    <script>
+        (function() { 
+            Galleria.loadTheme('scripts/galleria/themes/classic/galleria.classic.min.js');
+//            Galleria.loadTheme('galleria/themes/fullscreen/galleria.fullscreen.min.js');
+            Galleria.configure({
+                wait: true
+            });
+            Galleria.run('.galleria');
+        }());
+    </script>
+</body>
+</html>

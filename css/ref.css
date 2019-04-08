@@ -1,0 +1,45 @@
+#reference {
+    display: flex;
+    flex-direction: column;
+}
+.reference {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    height: 80%;
+}
+.single {
+    padding: 0 30px;
+    text-align: center;
+}
+.try,
+.try2{
+    display: flex;
+    width: 25%;
+}
+
+.single img{
+    width: 70%;
+    border-radius: 50%;
+    padding: 20px 0;
+}
+.single p{
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 15px 0;
+}
+.try::after{
+    content: '';
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 20vh;
+    display: block;
+    border: 1px solid;
+    transform: rotate(180deg);
+    animation: color-change 2s infinite;
+}

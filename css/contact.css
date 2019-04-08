@@ -1,0 +1,19 @@
+.contact {
+    width: 100%;
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #3e3232;
+}
+.contact i:hover{
+    color:rgba(0, 29, 255, 0.74);
+}
+.contact-icon{
+    padding: 7px;
+}
+.contact a{
+    color: #3e3232;
+    padding: 10px;
+}
+.contact a:hover {
+    color:#3b5998;
+}

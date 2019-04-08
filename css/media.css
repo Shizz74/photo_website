@@ -1,0 +1,98 @@
+@media screen and (max-width: 900px) {
+    video{
+        display: block;
+        margin: 0 auto;
+    }
+    body {
+        overflow-x: hidden;
+    }
+/*    ---------------Section media--------------------*/
+    section{
+        width: 100vw;
+    }
+/*    --------------------Navigation media---------------------*/
+    nav {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .nav-link li{
+        padding: 5px;
+    }
+/*    ------------------Header media--------------------------*/
+    .header-text h1{
+        font-size: 50px;
+    }
+    .header-text p{
+        font-size: 20px;
+    }
+/*    ----------------About media--------------*/
+    .about2{
+        flex-direction: column;
+        width: 100vw;
+        padding: 10px 0;
+    }
+    .about p{
+        width: 100%;
+    }
+
+/*-------------Gallery media------------------*/
+
+    .gallery {
+        flex-direction: column;
+        min-width: 100vw;
+    }
+    .galleria{
+        width:100vw;
+        height: 70vh;
+    }
+    .people,
+    .urban,
+    .animals,
+    .nature,
+    .pic {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .picText,
+    .txtExit{
+        width: 100%;
+    }
+    .picText span{
+        padding: 20px;
+    }
+    .txtExitVis span{
+        padding: 5px;
+    }
+/*    --------------Reference------------*/
+    #reference{
+        text-align: center;
+    }
+    .reference{
+        flex-direction: column;
+        width: 100%;
+    }
+    .single{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 100vw;
+    }
+    .single img{
+        width: 50vw;
+    }
+    .single p{
+        width: 100vw;
+        padding: 20px;
+    }
+    .try,
+    .try2{
+        width: 100%;
+    }
+    .try::after{
+        display: none;
+    }
+}
